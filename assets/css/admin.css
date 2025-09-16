@@ -1,0 +1,125 @@
+.block-config-row {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.block-header {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.block-title {
+  font-weight: bold;
+  flex-grow: 1;
+}
+
+.field-container {
+  margin: 10px 0;
+}
+
+.field-row {
+  margin-bottom: 8px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.checkbox-label {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.field-controls {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #eee;
+}
+
+.remove-block {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+
+
+/* Import progress and results styling */
+#stp-import-progress-container {
+  margin: 20px 0;
+  background: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.stp-progress-wrapper {
+  height: 25px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+#stp-progress-bar {
+  height: 100%;
+  background-color: #0073aa;
+  width: 0%;
+  border-radius: 5px;
+  transition: width 0.5s ease-in-out;
+}
+
+#stp-progress-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  line-height: 25px;
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+#stp-progress-details {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+#stp-import-results {
+  margin-top: 30px;
+}
+
+#stp-import-results .import-summary {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+#stp-import-results .status-created td {
+  background-color: #dff0d8;
+}
+
+#stp-import-results .status-updated td {
+  background-color: #d9edf7;
+}
+
+#stp-import-results .status-skipped td {
+  background-color: #fcf8e3;
+}
+
+#stp-import-results .status-error td {
+  background-color: #f2dede;
+}
+
+.button-small {
+  margin-right: 5px !important;
+}
